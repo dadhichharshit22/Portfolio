@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website - v2.0<br/>
-  <a href="http://portfolio-1et3.vercel.app" target="_blank">soumyajit.tech</a>
+  <a href="http://portfolio-1et3.vercel.app" target="_blank">Harshit Dadhich</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="" />
