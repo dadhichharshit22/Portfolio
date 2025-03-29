@@ -7,7 +7,8 @@ import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import Event from "../../Assets/Projects/Screenshot 2025-03-29 232121.png"
+import Hospital from "../../Assets/Projects/Screenshot 2025-03-29 232822.png"
 
 function Projects() {
   return (
@@ -21,20 +22,9 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+        <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
-              isBlog={false}
-              title="Prescripto- Hospital Management System using OR Generator"
-              description="Prescripto - Hospital Management System is an advanced healthcare solution integrated with an OR (Operation Room) Generator to streamline hospital operations. It efficiently manages patient records, appointments, billing, and surgical schedules, enhancing hospital workflow and patient care."
-              ghLink="https://github.com/dadhichharshit22/Hospital-Management-.git"
-              demoLink="https://prescripto-8ns6.onrender.com/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={Event}
               isBlog={false}
               title="AuraEvent- Event Management System"
               description="This is Event Management Website for the events like Tech Conference, Music, Online Event, etc. And you can create a event, get the event or get the event by id, update the event, delete the event , registration of event and cancelled a registration in this Web Application."
@@ -43,6 +33,18 @@ function Projects() {
             />
           </Col>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Hospital}
+              isBlog={false}
+              title="Arogya Sandesh- Hospital Management System using OR Generator"
+              description="Arogya Sandesh- Hospital Management System is an advanced healthcare solution integrated with an OR (Operation Room) Generator to streamline hospital operations. It efficiently manages patient records, appointments, billing, and surgical schedules, enhancing hospital workflow and patient care."
+              ghLink="https://github.com/dadhichharshit22/Hospital-Management-.git"
+              demoLink="https://prescripto-8ns6.onrender.com/"
+            />
+          </Col>
+
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
@@ -78,7 +80,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={chatify}
               isBlog={false}
               title="Password Generator Website"
               description="Password-Generator-Website for the generate the password for any website, app or other things which have weak password and strong password by using vanilla javascript, CSS(Cascading Style Sheet),HTML(Hyper Text Mark Up Language)"

@@ -17,7 +17,7 @@ function Footer() {
           <h3>Designed and Developed by Harshit Dadhich</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} SB</h3>
+          <h3>Copyright © {year} HD</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
@@ -29,16 +29,6 @@ function Footer() {
                 rel="noopener noreferrer"
               >
                 <AiFillGithub />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://twitter.com/dadhichharshit22"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiOutlineTwitter />
               </a>
             </li>
             <li className="social-icons">
