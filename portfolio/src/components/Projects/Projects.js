@@ -37,7 +37,7 @@ function Projects() {
             <ProjectCard
               imgPath={Hospital}
               isBlog={false}
-              title="Arogya Sandesh- Hospital Management System using OR Generator"
+              title="Arogya Sandesh- Hospital Management System using QR Generator"
               description="Arogya Sandesh- Hospital Management System is an advanced healthcare solution integrated with an OR (Operation Room) Generator to streamline hospital operations. It efficiently manages patient records, appointments, billing, and surgical schedules, enhancing hospital workflow and patient care."
               ghLink="https://github.com/dadhichharshit22/Hospital-Management-.git"
               demoLink="https://prescripto-8ns6.onrender.com/"
